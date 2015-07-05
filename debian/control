@@ -1,0 +1,15 @@
+Source: qubes-mgmt-salt-all-vim
+Section: admin
+Priority: extra
+Maintainer: Jason Mehring <nrgaway@gmail.com>
+Build-Depends: debhelper (>= 9~), quilt
+Standards-Version: 3.9.5
+Homepage: http://www.qubes-os.org
+
+Package: qubes-mgmt-salt-all-vim
+Section: admin
+Architecture: all
+Depends: qubes-mgmt-salt-base, qubes-mgmt-salt-config
+Description: Salt formula to install vim.
+ Vim plugins for editing sls files, nerdtree and pyflakes are also included
+ along with a sample pillar file.
