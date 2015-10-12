@@ -1,13 +1,19 @@
 # vim: set syntax=yaml ts=2 sw=2 sts=2 et :
 
-name:          vim-formula
-top_level_dir: vim
-saltenv:       all
-version:       3.0.0
-release:       1
-os:            RedHat, Debian, Ubuntu, Suse, FreeBSD
-os_family:     RedHat, Debian, Suse, FreeBSD
-summary:       Salt formula to install vim
+package-name:       qubes-mgmt-salt-all-vim
+name:               vim-formula
+top_level_dir:      vim
+formula-files:      README.rst LICENSE vim pillar.example
+pillar-files:       
+test-formula-files: 
+test-pillar-files: 
+formula_root:       /srv/formulas
+saltenv:            all
+version:            3.0.0
+release:            1
+os:                 RedHat, Debian, Ubuntu, Suse, FreeBSD
+os_family:          RedHat, Debian, Suse, FreeBSD
+summary:            Salt formula to install vim
 description: |
   Salt formula to install vim.
 
@@ -18,9 +24,9 @@ state-tops:
   all:
     enable:
       - vim
+      - vim.salt
     disable:
       - vim.absent
       - vim.editor
       - vim.nerdtree
       - vim.pyflakes
-      - vim.salt
