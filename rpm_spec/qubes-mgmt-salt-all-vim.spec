@@ -72,9 +72,11 @@ qubesctl top.enable vim.salt saltenv=all -l quiet --out quiet > /dev/null || tru
 /srv/formulas/all/vim-formula/vim/files/pyflakes/ftplugin/python/pyflakes/README.rst
 /srv/formulas/all/vim-formula/vim/files/pyflakes/ftplugin/python/pyflakes/setup.py*
 /srv/formulas/all/vim-formula/vim/files/pyflakes/ftplugin/python/pyflakes.vim
+/srv/formulas/all/vim-formula/vim/files/salt/ftdetect/jinja.vim
 /srv/formulas/all/vim-formula/vim/files/salt/ftdetect/sls.vim
 /srv/formulas/all/vim-formula/vim/files/salt/ftplugin/rst.vim
 /srv/formulas/all/vim-formula/vim/files/salt/ftplugin/sls.vim
+/srv/formulas/all/vim-formula/vim/files/salt/syntax/jinja.vim
 /srv/formulas/all/vim-formula/vim/files/salt/syntax/sls.vim
 /srv/formulas/all/vim-formula/vim/files/vimrc
 /srv/formulas/all/vim-formula/vim/init.sls
